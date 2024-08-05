@@ -1,0 +1,5 @@
+@use '../../scss/common.scss';
+
+.image-view {
+  @extend .screen-layout;
+}
