@@ -2,4 +2,6 @@
 
 .image-view {
   @extend .screen-layout;
+
+  border: 2px solid lime;
 }

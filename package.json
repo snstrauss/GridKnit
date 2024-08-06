@@ -11,6 +11,7 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "pixel-scale": "^2.0.1",
+    "solid-icons": "^1.1.0",
     "solid-js": "^1.8.18"
   },
   "devDependencies": {
