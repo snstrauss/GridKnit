@@ -16,7 +16,7 @@ function setViewerRef(canvasRef: HTMLCanvasElement) {
 }
 
 const fileReader = new FileReader();
-const imageElement = new Image();
+export const imageElement = new Image();
 
 function getImageDataFromCanvas() {
   const { width: imgWidth, height: imgHeight } = imageElement;

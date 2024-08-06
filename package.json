@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "colorthief": "^2.4.0",
+    "colortranslator": "^4.1.0",
     "pixel-scale": "^2.0.1",
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.18"
