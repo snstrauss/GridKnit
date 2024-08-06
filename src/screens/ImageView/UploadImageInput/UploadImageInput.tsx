@@ -7,8 +7,8 @@ const IMAGE_INPUT = "upload-image-input";
 export default function UploadImageInput() {
   return (
     <div class={IMAGE_INPUT}>
-      <BiRegularImageAdd />
-      <h2>add image</h2>
+      <BiRegularImageAdd size={100} />
+      <h1>add image</h1>
       <input
         type="file"
         name="imageData"

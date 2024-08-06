@@ -10,9 +10,7 @@ export default function ImageView() {
   return (
     <div class={IMAGE_VIEW}>
       <ImageViewer />
-      <Show when={!imageData()}>
-        <UploadImageInput />
-      </Show>
+      
     </div>
   );
 }

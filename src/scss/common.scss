@@ -4,5 +4,8 @@
   width: 100vw;
   height: 100vh;
 
+  --screen-padding: 3vw;
+  padding: var(--screen-padding);
+
   @include mixins.flex();
 }

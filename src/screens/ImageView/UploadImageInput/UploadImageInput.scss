@@ -1,3 +1,18 @@
+@use '../../../scss/mixins';
+
 .upload-image-input {
-  border: 2px solid cadetblue;
+  @include mixins.absolute-position();
+  @include mixins.flex();
+
+  border: dashed 0.5em lightslategrey;
+  color: lightslategrey;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  input {
+    @include mixins.absolute-position();
+    opacity: 0;
+  }
 }

@@ -1,7 +1,7 @@
-@use '../../scss/common.scss';
+@use "../../scss/common.scss";
 
 .image-view {
   @extend .screen-layout;
 
-  border: 2px solid lime;
+  justify-content: flex-start;
 }
